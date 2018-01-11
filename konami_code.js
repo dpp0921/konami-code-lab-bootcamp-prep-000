@@ -6,7 +6,7 @@ function init() {
   var e = 0;
   const key = parseInt(e.which);
   if(key === code[i]){
-    index++;
+    i++;
     if(i === code.length){
       alert("Hurray!");
       index = 0;
